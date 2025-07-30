@@ -1,0 +1,52 @@
+# 策略因子配置文件
+# 用于数据挖掘和因子分析
+
+# 基本面因子
+fundamental:
+  pe_ratio: "pe_ratio"  # 市盈率
+  pe: "pe"  # P/E
+  roe: "roe"  # Roe
+  net_profit: "net_profit"  # 净利润
+
+# 技术面因子
+technical:
+  - minute_level: "1_minute"
+    indicators:
+      open: "open"  # 开市价
+      close: "close"  # 收市价
+      high: "high"  # 最高价
+      low: "low"  # 最低价
+      volume: "volume"  # 成交量
+      average_price: "average_price"  # 均价
+  - minute_level: "5_minute"
+    indicators:
+      open: "open"  # 开市价
+      close: "close"  # 收市价
+      high: "high"  # 最高价
+      low: "low"  # 最低价
+      volume: "volume"  # 成交量
+      average_price: "average_price"  # 均价
+  - minute_level: "15_minute"
+    indicators:
+      open: "open"  # 开市价
+      close: "close"  # 收市价
+      high: "high"  # 最高价
+      low: "low"  # 最低价
+      volume: "volume"  # 成交量
+      average_price: "average_price"  # 均价
+  - minute_level: "30_minute"
+    indicators:
+      open: "open"  # 开市价
+      close: "close"  # 收市价
+      high: "high"  # 最高价
+      low: "low"  # 最低价
+      volume: "volume"  # 成交量
+      average_price: "average_price"  # 均价
+  - minute_level: "1_day"
+    indicators:
+      open: "open"  # 开市价
+      close: "close"  # 收市价
+      high: "high"  # 最高价
+      low: "low"  # 最低价
+      volume: "volume"  # 成交量
+      average_price: "average_price"  # 均价

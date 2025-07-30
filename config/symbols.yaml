@@ -1,0 +1,9 @@
+# 股票代号配置文件
+# 用于数据抓取的默认股票列表
+
+symbols:
+  - AAPL
+  - NVDA
+  - MSFT
+  - TOL
+  - AVGO

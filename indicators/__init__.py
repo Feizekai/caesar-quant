@@ -1,0 +1,1 @@
+"""Indicators module for Caesar Quantitative Analysis System"""

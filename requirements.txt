@@ -19,6 +19,12 @@ redis>=4.0.0
 # 配置
 pyyaml>=6.0
 
+# HTTP请求
+requests>=2.25.0
+
 # 异步处理
 asyncio
 aiohttp>=3.8.0
+
+# 数据可视化
+matplotlib>=3.5.0
